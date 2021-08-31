@@ -138,30 +138,35 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
 .inner_abt {
   font-family: "Courgette", cursive !important;
-  width: 60vw;
+  width: 60%;
   height: 50vh;
   line-height: 50px;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+
 }
-.profile{
-  border: 2px red;
-  
-}
+
 .abt_text {
   color: grey;
 }
 .abt_img {
-  width: 35vw;
-  height: 30vh;
+ width:300px;
+ height: 35vh;
   border-radius: 50%;
 }
 @media (max-width: 720px) {
   .about_section {
     flex-direction: column;
+  }
+  .profile{
+   margin-top: 20px;
   }
 }
 
