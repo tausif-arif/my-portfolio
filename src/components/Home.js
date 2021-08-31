@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+import resume from "../assets/resume.pdf";
 import {
   FaFacebookSquare,
   FaGithubSquare,
@@ -21,8 +22,9 @@ const Home = () => {
           <span className="text2"> I am a</span> <span className="span_text">Web Developer</span>
           </h4>
           <Link to="/about" className="btns btn_know_more">Know More</Link>
+        
 
-          <Link className="btns btn_dwn_resume">Download Resume</Link>
+          <a href={resume} download="tausif-arif.pdf" className="btns btn_dwn_resume"> Download Resume </a>
           <div className="social_icons">
             <div className="icons"> 
             <a className="social_link" href="https://www.facebook.com/stausif1920" rel="noreferrer" target="_blank"> <FaFacebookSquare className="fb_icon" /></a> 
