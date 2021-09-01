@@ -70,6 +70,12 @@
     display: inline-flex;
     transition: 0.2s;
   }
+  .btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  }
   .card .bottom-text .btn a:hover{
     transform: scale(0.9);
   }

@@ -21,7 +21,7 @@ const WorkCard = (props) => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto adipisci reprehenderit quasi cum perspiciatis, minima reiciendis magni quam!
                </div>
                <div className="btn">
-                  <a href="#">Know more</a>
+                  <a href={props.url} target="_blank" rel="noreferrer"  >Know more</a>
                </div>
             </div>
          </div>
