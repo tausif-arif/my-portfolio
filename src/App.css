@@ -145,7 +145,7 @@ body {
   font-family: "Courgette", cursive !important;
   width: 60%;
   height: 50vh;
-  line-height: 50px;
+  line-height: 35px;
   display: flex;
 justify-content: center;
 align-items: center;
@@ -157,8 +157,8 @@ align-items: center;
   color: grey;
 }
 .abt_img {
- width:300px;
- height: 35vh;
+ width:60%;
+ height: 45vh;
   border-radius: 50%;
 }
 @media (max-width: 720px) {
@@ -166,7 +166,19 @@ align-items: center;
     flex-direction: column;
   }
   .profile{
-   margin-top: 20px;
+   margin-top: 10px;
+  }
+  .inner_abt{
+    height: 45%;
+    font-size: smaller;
+    
+  }
+  .abt_img{
+    width:35vw;
+    height: 30vh;
+  }
+  .about_section{
+    height: 100%;
   }
 }
 
@@ -319,8 +331,8 @@ li.reactjs:after {
   justify-content: center;
   flex-direction: column;
   background-color: rgb(179, 171, 171);
-  width: 40vw;
-  height: 90vh;
+  width: 55%;
+  height: 95%;
   padding-top: 40px;
   border-radius: 4px;
   box-shadow: 1px 2px 4px 1px rgb(105, 101, 101);
