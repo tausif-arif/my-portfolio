@@ -15,10 +15,11 @@ const Contact = () => {
     console.log(value);
     setUserDetails({ ...userDetails, [name]: value });
   };
+  
   const submitDetails = async (e) => {
     e.preventDefault();
     const { username, email, phone, message } = userDetails;
-    const res = await fetch(
+       const res = await fetch(
       "https://my-portfolio-6c149-default-rtdb.asia-southeast1.firebasedatabase.app/myportfolio.json",
       {
         method: "POST",
@@ -70,6 +71,7 @@ const Contact = () => {
               name="email"
               value={userDetails.email}
               onChange={inputForm}
+              required
             />
           </div>
           <div>

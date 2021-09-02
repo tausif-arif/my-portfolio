@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import { NavLink, Route, Switch } from "react-router-dom";
 import "../App.css";
@@ -14,8 +15,7 @@ const Navbar = () => {
     color: "#fff",
   };
   const bar = () => {
-    console.log("clicked");
-    const add_Nav = document.getElementById("navs");
+        const add_Nav = document.getElementById("navs");
     if (add_Nav.className === "navlist") {
       add_Nav.className ="resp_navbar";
     } else {
@@ -56,9 +56,10 @@ const Navbar = () => {
          
         </ul>
         <div className="bar">
-            <a href="/#" onClick={bar}>
+        
+            <a href="#" onClick={bar}> 
               <FaBars />
-            </a>
+            </a> 
           </div>
       </div>
       <Switch>
