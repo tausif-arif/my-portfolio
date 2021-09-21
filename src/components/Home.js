@@ -6,7 +6,8 @@ import {
   FaFacebookSquare,
   FaGithubSquare,
   FaTwitterSquare,
-  FaLinkedin
+  FaLinkedin,
+  FaInstagramSquare
 } from "react-icons/fa";
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
           <a href={resume} download="tausif-arif.pdf" className="btns btn_dwn_resume"> Download Resume </a>
           <div className="social_icons">
             <div className="icons"> 
-            <a className="social_link" href="https://www.facebook.com/stausif1920" rel="noreferrer" target="_blank"> <FaFacebookSquare className="fb_icon" /></a> 
+            <a className="social_link" href="https://www.instagram.com/tausif19s/" rel="noreferrer" target="_blank"> <FaInstagramSquare className="fb_icon" /></a> 
             </div>
             <div className="icons">
             <a  className="social_link" href="https://twitter.com/__tausif" rel="noreferrer" target="_blank"><FaTwitterSquare className="twitter_icon" /></a> 
