@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Pic from "../assets/profile.jpeg";
+import Pic from "../assets/profile.png";
 const About = () => {
   return (
     <div className="about_section">
